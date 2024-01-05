@@ -26,8 +26,8 @@
                         bindings = <
    &kp TAB    &kp SQT   &kp COMMA  &kp DOT   &kp P     &kp Y    &kp F  &kp G      &kp C     &kp R  &kp L  &kp QUESTION
    &kp LCTRL  &kp A     &kp O      &kp E     &kp U     &kp I    &kp D  &kp H      &kp T     &kp N  &kp S  &kp MINUS
-   &kp LSHFT  &kp SEMI  &kp Q      &kp J     &kp K     &kp X    &kp B  &kp M      &kp W     &kp V  &kp Z  &rgb_ug RGB_COLOR_HSB(49,98,81)
-                                &kp LGUI  &kp BSPC  &sl 1    &sl 2  &kp SPACE  &kp RALT
+   &kp LSHFT  &kp SEMI  &kp Q      &kp J     &kp K     &kp X    &kp B  &kp M      &kp W     &kp V  &kp Z  &rgb_ug RGB_COLOR_HSB(115,134,120)
+                                &kp LGUI  &kp BSPC  &tog 1    &tog 2  &kp SPACE  &kp RET
                         >;
                 };
                 lower_layer {
@@ -40,7 +40,7 @@
    &kp TAB     &trans        &kp TAB       &kp UP        &kp TAB    &trans    &kp SLASH  &kp N7     &kp N8  &kp N9  &kp EQUAL   &kp BSPC
    &bt BT_CLR  &trans        &kp LEFT      &kp DOWN      &kp RIGHT  &trans    &kp PLUS   &kp N4     &kp N5  &kp N6  &kp PERIOD  &kp RALT
    &kp LSHFT   &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans     &trans    &kp MINUS  &kp N1     &kp N2  &kp N3  &kp RET     &kp ESC
-                                        &kp LGUI      &kp BSPC   &sl 0     &sl 2      &kp SPACE  &kp N0
+                                        &kp LGUI      &kp BSPC   &tog 0     &tog 2      &kp SPACE  &kp N0
                         >;
                 };
 
@@ -54,7 +54,7 @@
    &kp TAB  &kp EXCLAMATION  &kp AT_SIGN  &kp POUND     &kp DOLLAR     &kp PERCENT    &kp CARET  &kp AMPERSAND     &kp POUND          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
    &trans   &trans           &trans       &trans        &trans         &trans         &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH         &kp GRAVE              &trans
    &trans   &trans           &trans       &trans        &trans         &trans         &trans     &trans            &trans             &trans                &trans                 &trans
-                                       &kp LEFT_GUI  &kp BACKSPACE  &sl 1          &sl 2      &kp SPACE         &trans
+                                       &kp LEFT_GUI  &kp BACKSPACE  &tog 1          &tog 2      &kp SPACE         &trans
                         >;
                 };
         };
