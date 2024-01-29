@@ -37,9 +37,9 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |RGBTOG|
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp TAB     &trans        &kp TAB       &kp UP        &kp TAB    &trans    &kp SLASH  &kp N7     &kp N8  &kp N9  &kp EQUAL   &kp BSPC
-   &bt BT_CLR  &trans        &kp LEFT      &kp DOWN      &kp RIGHT  &trans    &kp PLUS   &kp N4     &kp N5  &kp N6  &kp PERIOD  &kp RALT
-   &kp LSHFT   &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans     &trans    &kp MINUS  &kp N1     &kp N2  &kp N3  &kp RET     &kp ESC
+   &kp TAB     &trans        &kp TAB       &kp UP        &kp TAB    &trans    &kp SLASH  &kp N7     &kp N8  &kp N9  &kp ASTERISK   &kp RALT
+   &bt BT_CLR  &trans        &kp LEFT      &kp DOWN      &kp RIGHT  &trans    &kp PLUS   &kp N4     &kp N5  &kp N6  &kp EQUAL  &kp RET
+   &kp LSHFT   &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans     &trans    &kp MINUS  &kp N1     &kp N2  &kp N3  &kp PERIOD     &kp ESC
                                         &kp LGUI      &kp BSPC   &tog 1     &tog 2      &kp SPACE  &kp N0
                         >;
                 };
