@@ -26,8 +26,8 @@
                         bindings = <
    &kp TAB    &kp SQT   &kp COMMA  &kp DOT   &kp P     &kp Y    &kp F  &kp G      &kp C     &kp R  &kp L  &kp QUESTION
    &kp LCTRL  &kp A     &kp O      &kp E     &kp U     &kp I    &kp D  &kp H      &kp T     &kp N  &kp S  &kp MINUS
-   &kp LSHFT  &kp SEMI  &kp Q      &kp J     &kp K     &kp X    &kp B  &kp M      &kp W     &kp V  &kp Z  &rgb_ug RGB_TOG
-                                &kp LGUI  &kp BSPC  &tog 1    &tog 2  &kp SPACE  &kp RET
+   &kp LCTRL  &kp SEMI  &kp Q      &kp J     &kp K     &kp X    &kp B  &kp M      &kp W     &kp V  &kp Z  &rgb_ug RGB_TOG
+                                &kp LSHIFT  &kp BSPC  &tog 1    &tog 2  &kp SPACE  &kp RET
                         >;
                 };
                 lower_layer {
@@ -37,10 +37,10 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |RGBTOG|
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp TAB     &trans        &kp TAB       &kp UP        &kp TAB    &trans    &kp SLASH  &kp N7     &kp N8  &kp N9  &kp ASTERISK   &kp RALT
-   &bt BT_CLR  &trans        &kp LEFT      &kp DOWN      &kp RIGHT  &trans    &kp PLUS   &kp N4     &kp N5  &kp N6  &kp EQUAL  &kp RET
-   &kp LSHFT   &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans     &trans    &kp MINUS  &kp N1     &kp N2  &kp N3  &kp PERIOD     &kp ESC
-                                        &kp LGUI      &kp BSPC   &tog 1     &tog 2      &kp SPACE  &kp N0
+   &kp TAB     &kp BACKSLASH        &kp TAB       &kp UP        &kp TAB    &trans    &kp SLASH  &kp N7     &kp N8  &kp N9  &kp ASTERISK   &kp RALT
+   &bt BT_CLR  &kp K_COPY        &kp LEFT      &kp DOWN      &kp RIGHT  &kp K_PASTE    &kp PLUS   &kp N4     &kp N5  &kp N6  &kp EQUAL  &kp RET
+   &kp LGUI   &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans     &trans    &kp MINUS  &kp N1     &kp N2  &kp N3  &kp PERIOD     &kp ESC
+                                        &kp LSHIFT      &kp BSPC   &tog 1     &tog 2      &kp SPACE  &kp N0
                         >;
                 };
 
@@ -51,10 +51,10 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp TAB  &kp EXCLAMATION  &kp AT_SIGN  &kp POUND     &kp DOLLAR     &kp PERCENT    &kp CARET  &kp AMPERSAND     &kp POUND          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
+   &kp TAB  &kp K_SLEEP  &kp K_CALCULATOR  &kp POUND     &kp DOLLAR     &kp PERCENT    &kp CARET  &kp AMPERSAND     &kp POUND          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
    &rgb_ug RGB_BRI   &rgb_ug RGB_COLOR_HSB(47,89,80)           &rgb_ug RGB_COLOR_HSB(278,100,61)       &rgb_ug RGB_COLOR_HSB(105,100,32)        &rgb_ug RGB_COLOR_HSB(180,100,69)         &rgb_ug RGB_COLOR_HSB(0,0,100)         &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH         &kp GRAVE              &trans
    &rgb_ug RGB_BRD   &rgb_ug RGB_TOG           &trans       &trans        &trans         &trans          &kp C_VOLUME_UP     &kp C_VOLUME_DOWN            &kp DELETE             &trans                &trans                 &trans
-                                       &kp LEFT_GUI  &kp BACKSPACE  &tog 1          &tog 2      &kp SPACE         &kp RET
+                                       &kp LSHIFT  &kp BACKSPACE  &tog 1          &tog 2      &kp SPACE         &kp RET
                         >;
                 };
         };
