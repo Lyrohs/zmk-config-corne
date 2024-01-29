@@ -37,7 +37,7 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |RGBTOG|
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp TAB     &kp BACKSLASH        &kp TAB       &kp UP        &kp TAB    &kp K_CALCULATOR    &kp SLASH  &kp N7     &kp N8  &kp N9  &kp ASTERISK   &kp RALT
+   &kp TAB     &kp BACKSLASH        &kp TAB       &kp UP        &kp DOLLAR    &kp K_CALCULATOR    &kp SLASH  &kp N7     &kp N8  &kp N9  &kp ASTERISK   &kp RALT
    &trans  &kp K_COPY        &kp LEFT      &kp DOWN      &kp RIGHT  &kp K_PASTE    &kp PLUS   &kp N4     &kp N5  &kp N6  &kp EQUAL  &kp RET
    &kp LGUI   &kp K_CUT  &kp K_UNDO  &kp K_REDO  &kp HOME     &kp END    &kp MINUS  &kp N1     &kp N2  &kp N3  &kp PERIOD     &kp ESC
                                         &kp LSHIFT      &kp BSPC   &tog 1     &tog 2      &kp SPACE  &kp N0
