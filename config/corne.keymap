@@ -23,10 +23,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB       &kp SQT   &kp COMMA  &kp DOT  &kp P     &kp Y             &kp F   &kp G      &kp C    &kp R  &kp L  &kp QUESTION
+&kp TAB       &kp SQT   &kp COMMA  &kp DOT  &kp P     &kp Y             &kp F   &kp G      &kp C    &kp R  &kp L  &mt EXCLAMATION QUESTION
 &kp CAPSLOCK  &kp A     &kp O      &kp E    &kp U     &kp I             &kp D   &kp H      &kp T    &kp N  &kp S  &kp MINUS
 &kp LCTRL     &kp SEMI  &kp Q      &kp J    &kp K     &kp X             &kp B   &kp M      &kp W    &kp V  &kp Z  &kp DELETE
-                                   &tog 1   &kp BSPC  &kp LEFT_SHIFT    &tog 2  &kp SPACE  &kp RET
+                                   &tog 2   &kp BSPC  &kp LEFT_SHIFT    &tog 1  &kp SPACE  &kp RET
             >;
         };
 
@@ -41,7 +41,7 @@
 &kp TAB    &kp LC(A)  &kp BACKSLASH  &kp UP     &kp DOLLAR  &kp LC(RA(C))     &kp SLASH   &kp N7     &kp N8  &kp N9  &kp ASTERISK  &kp RALT
 &kp LCTRL  &kp LC(C)  &kp LEFT       &kp DOWN   &kp RIGHT   &kp LC(V)         &kp PLUS    &kp N4     &kp N5  &kp N6  &kp MINUS     &kp RET
 &kp LGUI   &kp LC(X)  &kp LC(Z)      &kp LC(Y)  &kp HOME    &kp END           &kp PERIOD  &kp N1     &kp N2  &kp N3  &kp EQUAL     &kp ESC
-                                     &tog 1     &kp BSPC    &kp LEFT_SHIFT    &tog 2      &kp SPACE  &kp N0
+                                     &tog 2     &kp BSPC    &kp LEFT_SHIFT    &tog 1      &kp SPACE  &kp N0
             >;
         };
 
@@ -53,10 +53,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB          &kp K_SLEEP                      &kp LA(F4)                         &kp LC(N)                          &kp LC(LS(T))                      &kp LG(LS(S))                     &trans  &trans     &trans   &trans  &trans     &kp C_VOLUME_UP
+&kp TAB          &kp C_SLEEP_MODE                 &kp LA(F4)                         &kp LC(N)                          &kp LC(LS(T))                      &kp LG(LS(S))                     &trans  &trans     &trans   &trans  &trans     &kp C_VOLUME_UP
 &rgb_ug RGB_BRI  &rgb_ug RGB_COLOR_HSB(47,89,80)  &rgb_ug RGB_COLOR_HSB(278,100,61)  &rgb_ug RGB_COLOR_HSB(105,100,32)  &rgb_ug RGB_COLOR_HSB(180,100,69)  &rgb_ug RGB_COLOR_HSB(0,0,100)    &trans  &trans     &trans   &trans  &kp GRAVE  &kp C_MUTE
 &rgb_ug RGB_BRD  &rgb_ug RGB_TOG                  &bt BT_CLR                         &bt BT_SEL 1                       &bt BT_SEL 2                       &bt BT_SEL 3                      &trans  &trans     &trans   &trans  &trans     &kp C_VOLUME_DOWN
-                                                                                     &tog 1                             &kp BSPC                           &kp LEFT_SHIFT                    &tog 2  &kp SPACE  &kp RET
+                                                                                     &tog 2                             &kp BSPC                           &kp LEFT_SHIFT                    &tog 1  &kp SPACE  &kp RET
             >;
         };
     };
